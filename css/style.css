@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.accordion {
+  max-width: 602px;
+  margin: 20px auto; }
+  .accordion h1 {
+    max-width: 600px;
+    background-color: #1195a2;
+    color: white;
+    margin: 0px;
+    padding-left: 25px; }
+
+h1:hover {
+  background-color: #16BBCB; }
+
+.open {
+  height: 175px;
+  transition: height 0.5s;
+  padding: 3%; }
+
+.close {
+  height: 0px;
+  overflow: auto;
+  margin: 0px;
+  transition: height 0.5s;
+  padding: 0px; }
+
+.title {
+  border: 1px solid #0d7079; }
+  .title p {
+    margin: 0px; }
